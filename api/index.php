@@ -39,18 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <script src="https://cdn.tailwindcss.com"></script>
 
   <style>
-    body {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(255, 255, 255, 0);
-      /* Transparan */
-      z-index: 9999;
-      pointer-events: none;
-      /* Tetap bisa berinteraksi */
-    }
+
   </style>
 </head>
 
